@@ -1,0 +1,44 @@
+div#grid_container{
+	width:350px;
+	height:860px;
+	
+}
+div#grid_container > .yo{
+	position:absolute;
+	width: inherit;
+    left: 10px;
+    top: 10px;
+    height: 185px;
+	width: 305px;
+	background-color: white;
+	border-color: transparent;
+}
+div#grid_container > button > button
+{ 
+	padding: 10px;
+	color: white;
+ }
+ button{
+     color: white;
+ }
+ body,html{
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+.welcome{
+    background-color: rgb(223, 223, 30);
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    border-radius: 25%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+canvas{
+    width:100%;
+    height: 100%;
+    background-color: white;
+}
